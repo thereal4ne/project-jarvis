@@ -505,3 +505,39 @@
 2026-09-11 15:29:12 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
 2026-09-11 15:29:32 [INFO] USER_COMMAND: open calculator
 2026-09-11 15:29:32 [INFO] JARVIS_OUTPUT: Launching Calculator.
+2026-09-11 21:45:40 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-09-11 21:45:40 [INFO] Native win32com SAPI initialized successfully.
+2026-09-11 21:45:48 [INFO] Indexed 170 Windows applications.
+2026-09-11 21:45:48 [INFO] TTS_CACHE: warming cache...
+2026-09-11 21:45:48 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-09-11 21:45:48 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-09-11 21:45:48 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-09-11 21:45:59 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-09-11 21:46:05 [INFO] TRAY: thread launched
+2026-09-11 21:46:05 [INFO] TRAY: icon started
+2026-09-11 21:46:30 [INFO] USER_COMMAND: say hello
+2026-09-11 21:46:30 [INFO] Routing to Semantic LLM...
+2026-09-11 21:46:30 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-11 21:46:30 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-11 21:46:30 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-09-11 21:46:46 [INFO] USER_COMMAND: open netflix
+2026-09-11 21:46:46 [INFO] JARVIS_OUTPUT: Launching Netflix.
+2026-09-11 21:47:01 [INFO] USER_COMMAND: open calclulator
+2026-09-11 21:47:01 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'calclulator'.
+2026-09-11 21:47:12 [INFO] USER_COMMAND: open calculator
+2026-09-11 21:47:12 [INFO] JARVIS_OUTPUT: Launching Calculator.
+2026-09-11 21:47:25 [INFO] USER_COMMAND: what is the current time
+2026-09-11 21:47:25 [INFO] Routing to Semantic LLM...
+2026-09-11 21:47:26 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-11 21:47:26 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-11 21:47:26 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-09-11 21:51:04 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-09-11 21:51:04 [INFO] Native win32com SAPI initialized successfully.
+2026-09-11 21:51:04 [INFO] USER_COMMAND: time
+2026-09-11 21:51:04 [INFO] USER_COMMAND: say hello
+2026-09-11 21:51:06 [INFO] Indexed 170 Windows applications.
+2026-09-11 21:51:06 [INFO] Routing to Semantic LLM...
+2026-09-11 21:51:06 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-11 21:51:06 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-11 22:08:23 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-09-11 22:08:23 [INFO] Native win32com SAPI initialized successfully.

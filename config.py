@@ -99,7 +99,7 @@ def load_config() -> JarvisConfig:
 
     # [general]
     general = GeneralConfig(
-        model_name=get("general", "model_name", "gemini-2.0-flash"),
+        model_name=get("general", "model_name", "gemini-3.6-flash"),
         history_turns=int(get("general", "history_turns", "8")),
         pending_action_timeout=int(get("general", "pending_action_timeout", "30")),
     )

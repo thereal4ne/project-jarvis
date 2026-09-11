@@ -157,7 +157,11 @@ def speak_fast(text: str) -> None:
 def speak(text: str) -> None:
     """Speaks text using Edge TTS neural voice, falls back to SAPI."""
     clean_text = clean_for_speech(text)
-    print(f"\n🤖 JARVIS: {clean_text}")
+    try:
+        print(f"\n🤖 JARVIS: {clean_text}")
+    except UnicodeEncodeError:
+        # Fallback for Windows cmd terminals that don't support emojis (cp1252)
+        print(f"\n[JARVIS]: {clean_text}")
     logger.info(f"JARVIS_OUTPUT: {clean_text}")
 
     set_hud_state("speaking")
