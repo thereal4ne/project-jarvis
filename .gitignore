@@ -1,0 +1,40 @@
+# Jarvis — Python Project .gitignore
+
+# ── Secrets (NEVER commit these) ─────────────────────────────────────────────
+.env
+*.env.*
+
+# ── Sensitive runtime data ────────────────────────────────────────────────────
+*.log               # jarvis.log contains full command history
+memory.json         # User preferences (personal data)
+
+# ── TTS audio cache ───────────────────────────────────────────────────────────
+cache/              # Pre-generated MP3 files (regenerated on demand)
+
+# ── Vosk STT model ────────────────────────────────────────────────────────────
+vosk-model*/        # ~40MB, downloaded separately by each user
+
+# ── Python standard ignores ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Test artefacts ────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── IDE files ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/

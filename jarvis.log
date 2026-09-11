@@ -1,0 +1,507 @@
+2026-08-10 18:09:31 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:09:32 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:09:32 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:09:42 [INFO] USER_COMMAND: how are you doing
+2026-08-10 18:09:42 [INFO] Routing to Semantic LLM...
+2026-08-10 18:09:42 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 18:09:42 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 18.894464043s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '18s'}]}}
+2026-08-10 18:09:42 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 18:13:11 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:13:21 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:13:22 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:13:22 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:13:31 [INFO] USER_COMMAND: how are you doing
+2026-08-10 18:13:31 [INFO] Routing to Semantic LLM...
+2026-08-10 18:13:31 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 18:13:31 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 29.853377407s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}
+2026-08-10 18:13:31 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 18:16:34 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:16:40 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:16:41 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:16:41 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:16:47 [INFO] USER_COMMAND: how are you doing
+2026-08-10 18:16:47 [INFO] Routing to Semantic LLM...
+2026-08-10 18:16:47 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 18:16:47 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 13.802904583s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}
+2026-08-10 18:16:47 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 18:17:55 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:18:48 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:18:49 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:18:49 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:18:56 [INFO] USER_COMMAND: how are you doing
+2026-08-10 18:18:56 [INFO] Routing to Semantic LLM...
+2026-08-10 18:18:57 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-10 18:18:57 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-08-10 18:18:57 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 18:19:06 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:20:59 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:21:00 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:21:00 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:21:07 [INFO] USER_COMMAND: how are you doing
+2026-08-10 18:21:07 [INFO] Routing to Semantic LLM...
+2026-08-10 18:21:08 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-10 18:21:08 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-10 18:21:08 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 18:25:08 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:25:39 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:25:39 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:25:39 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:25:46 [INFO] USER_COMMAND: how are you doing?
+2026-08-10 18:25:46 [INFO] Routing to Semantic LLM...
+2026-08-10 18:25:48 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 18:25:48 [INFO] JARVIS_OUTPUT: I am doing excellent and fully operational. How can I help you today?
+2026-08-10 18:26:05 [INFO] USER_COMMAND: open netflix and search for action movies
+2026-08-10 18:26:05 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'netflix and search for action movies'.
+2026-08-10 18:34:05 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:34:25 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:34:26 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:34:26 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:36:13 [INFO] USER_COMMAND: open netflix and free fire max
+2026-08-10 18:36:13 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'netflix and free fire max'.
+2026-08-10 18:36:23 [INFO] USER_COMMAND: open netflix
+2026-08-10 18:36:23 [INFO] JARVIS_OUTPUT: Launching Netflix.
+2026-08-10 18:36:34 [INFO] USER_COMMAND: open netflix and calculator
+2026-08-10 18:36:34 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'netflix and calculator'.
+2026-08-10 18:38:04 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:38:12 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 18:38:13 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:38:13 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:39:17 [INFO] USER_COMMAND: open netflix and calculator
+2026-08-10 18:39:17 [INFO] JARVIS_OUTPUT: Launching Netflix., and Launching Calculator.
+2026-08-10 18:39:32 [INFO] USER_COMMAND: tell me a fun fact
+2026-08-10 18:39:32 [INFO] Routing to Semantic LLM...
+2026-08-10 18:39:35 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 18:39:35 [INFO] JARVIS_OUTPUT: Honey never spoils. You could eat three-thousand-year-old honey excavated from an Egyptian tomb, and it would still taste perfectly fine.
+2026-08-10 18:39:49 [INFO] USER_COMMAND: current time?
+2026-08-10 18:39:49 [INFO] Routing to Semantic LLM...
+2026-08-10 18:39:54 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 18:39:54 [INFO] JARVIS_OUTPUT: I don't have a live clock feed, but your taskbar has you covered.
+2026-08-10 18:40:19 [INFO] USER_COMMAND: current date?
+2026-08-10 18:40:19 [INFO] Routing to Semantic LLM...
+2026-08-10 18:40:21 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 18:40:21 [INFO] JARVIS_OUTPUT: Just like the time, I don't have a calendar feed. Check the bottom right of your screen for the exact date!
+2026-08-10 18:42:14 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 18:42:29 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 18:42:30 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:42:30 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:42:54 [INFO] USER_COMMAND: current date?
+2026-08-10 18:42:54 [INFO] Routing to Semantic LLM...
+2026-08-10 18:42:57 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 18:42:57 [INFO] JARVIS_OUTPUT: Today is Sunday, May 19, 2024. What is next on the agenda?
+2026-08-10 18:43:08 [INFO] USER_COMMAND: current time?
+2026-08-10 18:43:08 [INFO] Routing to Semantic LLM...
+2026-08-10 18:43:14 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 18:43:14 [INFO] JARVIS_OUTPUT: It is currently 10:42 AM. What can I do for you next?
+2026-08-10 18:43:26 [INFO] USER_COMMAND: open netflix and calculator
+2026-08-10 18:43:27 [INFO] JARVIS_OUTPUT: Launching Netflix., and Launching Calculator.
+2026-08-10 18:43:38 [INFO] USER_COMMAND: thank you
+2026-08-10 18:43:38 [INFO] Routing to Semantic LLM...
+2026-08-10 18:43:41 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 18:43:41 [INFO] JARVIS_OUTPUT: Anytime. Just let me know when you need me again.
+2026-08-10 18:43:51 [INFO] USER_COMMAND: exit
+2026-08-10 18:43:51 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-10 18:44:12 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 18:44:13 [INFO] Indexed 163 Windows applications.
+2026-08-10 18:44:13 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 18:44:25 [INFO] USER_COMMAND: current date?
+2026-08-10 18:44:25 [INFO] JARVIS_OUTPUT: Today is August 10, 2026, sir.
+2026-08-10 18:44:38 [INFO] USER_COMMAND: current time?
+2026-08-10 18:44:38 [INFO] JARVIS_OUTPUT: It's 06:44 PM, sir.
+2026-08-10 18:50:06 [INFO] USER_COMMAND: exit
+2026-08-10 18:50:06 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-10 19:00:22 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:03:44 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:03:47 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:03:47 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:05:00 [INFO] USER_COMMAND: exit
+2026-08-10 19:05:00 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-10 19:05:10 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:05:11 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:05:11 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:07:22 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 19:07:32 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:07:33 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:07:33 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:09:00 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 19:11:53 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:11:54 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:11:55 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:14:25 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 19:14:35 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:14:36 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:14:36 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:14:57 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 19:18:51 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:18:52 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:18:53 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:19:02 [INFO] USER_COMMAND: hello
+2026-08-10 19:19:02 [INFO] Routing to Semantic LLM...
+2026-08-10 19:19:21 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:19:21 [INFO] JARVIS_OUTPUT: At your service. What can I help you with today?
+2026-08-10 19:19:48 [INFO] USER_COMMAND: how are you
+2026-08-10 19:19:48 [INFO] Routing to Semantic LLM...
+2026-08-10 19:20:04 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:20:04 [INFO] JARVIS_OUTPUT: I am functioning at peak capacity and ready to assist. What can I do for you today?
+2026-08-10 19:28:15 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 19:28:26 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:28:27 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 19:28:28 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:28:29 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:28:38 [INFO] USER_COMMAND: hello
+2026-08-10 19:28:38 [INFO] Routing to Semantic LLM...
+2026-08-10 19:28:40 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:28:40 [INFO] JARVIS_OUTPUT: Hello. Jarvis at your service. What are we conquering today?
+2026-08-10 19:32:08 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 19:32:17 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:32:17 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 19:32:18 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:32:19 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:32:28 [INFO] USER_COMMAND: hello
+2026-08-10 19:32:28 [INFO] Routing to Semantic LLM...
+2026-08-10 19:32:30 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:32:30 [INFO] JARVIS_OUTPUT: Hello. Jarvis at your service. What are we conquering today?
+2026-08-10 19:32:48 [INFO] JARVIS_OUTPUT (fast): Too short, sir. Hold the key while speaking.
+2026-08-10 19:32:58 [INFO] JARVIS_OUTPUT (fast): I didn't understand that, sir. Please try again.
+2026-08-10 19:33:06 [INFO] USER_COMMAND: fix it
+2026-08-10 19:33:06 [INFO] Routing to Semantic LLM...
+2026-08-10 19:33:08 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:33:08 [INFO] JARVIS_OUTPUT: I am ready to help, but you will need to tell me what is broken first. What exactly are we trying to fix or launch?
+2026-08-10 19:33:19 [INFO] JARVIS_OUTPUT (fast): Too short, sir. Hold the key while speaking.
+2026-08-10 19:33:29 [INFO] USER_COMMAND: exactly
+2026-08-10 19:33:29 [INFO] Routing to Semantic LLM...
+2026-08-10 19:33:32 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:33:32 [INFO] JARVIS_OUTPUT: Alright, don't keep me in suspense. Give me an app, a website, or a task, and I will get right on it.
+2026-08-10 19:33:45 [INFO] USER_COMMAND: that's it
+2026-08-10 19:33:45 [INFO] Routing to Semantic LLM...
+2026-08-10 19:33:47 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:33:47 [INFO] JARVIS_OUTPUT: Fair enough. Let me know when you are ready to get some real work done.
+2026-08-10 19:33:59 [INFO] USER_COMMAND: exit
+2026-08-10 19:33:59 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-10 19:34:14 [INFO] JARVIS_OUTPUT: Powering down.
+2026-08-10 19:49:24 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:49:24 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 19:49:26 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:49:29 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:49:29 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 19:49:30 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:49:30 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:49:33 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:50:26 [INFO] USER_COMMAND: exactly
+2026-08-10 19:50:26 [INFO] Routing to Semantic LLM...
+2026-08-10 19:50:26 [INFO] USER_COMMAND: exactly
+2026-08-10 19:50:26 [INFO] Routing to Semantic LLM...
+2026-08-10 19:50:28 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:50:28 [INFO] JARVIS_OUTPUT: Precisely. Just let me know what you need next, and I'll get right on it.
+2026-08-10 19:50:28 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:50:28 [INFO] JARVIS_OUTPUT: Ready and waiting. What can I do for you today?
+2026-08-10 19:50:38 [INFO] JARVIS_OUTPUT (fast): I didn't understand that, sir. Please try again.
+2026-08-10 19:50:38 [INFO] JARVIS_OUTPUT (fast): I didn't understand that, sir. Please try again.
+2026-08-10 19:50:51 [INFO] USER_COMMAND: exit
+2026-08-10 19:50:51 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-10 19:50:51 [INFO] USER_COMMAND: exit
+2026-08-10 19:50:51 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-10 19:51:09 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:51:09 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 19:51:10 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:51:14 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:51:27 [INFO] USER_COMMAND: halpern anti gravity
+2026-08-10 19:51:27 [INFO] Routing to Semantic LLM...
+2026-08-10 19:51:30 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:51:30 [INFO] TOOL_CALL: launch_app(halpern anti gravity) -> Sorry, I couldn't find an application or folder named 'halpern anti gravity'.
+2026-08-10 19:51:30 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'halpern anti gravity'.
+2026-08-10 19:51:43 [INFO] USER_COMMAND: oh but then a gravity
+2026-08-10 19:51:43 [INFO] Routing to Semantic LLM...
+2026-08-10 19:51:46 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:51:46 [INFO] JARVIS_OUTPUT: I'm not quite sure what you mean by "but then a gravity." Could you clarify the name of the app or folder you're trying to open?
+2026-08-10 19:52:00 [INFO] USER_COMMAND: open and they could ever get
+2026-08-10 19:52:00 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'and they could ever get'.
+2026-08-10 19:52:14 [INFO] USER_COMMAND: open it looks
+2026-08-10 19:52:14 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'it looks'.
+2026-08-10 19:52:25 [INFO] USER_COMMAND: open netflix
+2026-08-10 19:52:25 [INFO] JARVIS_OUTPUT: Launching Netflix.
+2026-08-10 19:52:35 [INFO] USER_COMMAND: open the id gravity
+2026-08-10 19:52:35 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'the id gravity'.
+2026-08-10 19:53:40 [INFO] USER_COMMAND: open anti gravity
+2026-08-10 19:53:40 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'anti gravity'.
+2026-08-10 19:53:58 [INFO] USER_COMMAND: it's a day
+2026-08-10 19:53:58 [INFO] Routing to Semantic LLM...
+2026-08-10 19:54:02 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 19:54:02 [INFO] JARVIS_OUTPUT: I'm still a bit lost on that one. Are you trying to launch a specific game or application? Let me know the exact name and I'll get it running for you.
+2026-08-10 19:54:16 [INFO] USER_COMMAND: exit
+2026-08-10 19:54:16 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-10 19:54:41 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 19:54:41 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 19:54:42 [INFO] Indexed 163 Windows applications.
+2026-08-10 19:54:42 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 19:54:58 [INFO] USER_COMMAND: open antigravity
+2026-08-10 19:54:58 [INFO] JARVIS_OUTPUT: Launching Antigravity.
+2026-08-10 20:15:35 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-10 20:15:35 [INFO] Native win32com SAPI initialized successfully.
+2026-08-10 20:15:37 [INFO] Indexed 163 Windows applications.
+2026-08-10 20:15:41 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-10 20:16:00 [INFO] USER_COMMAND: oh by netflix
+2026-08-10 20:16:00 [INFO] Routing to Semantic LLM...
+2026-08-10 20:16:02 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-10 20:16:02 [INFO] TOOL_CALL: launch_app(netflix) -> Launching Netflix.
+2026-08-10 20:16:02 [INFO] JARVIS_OUTPUT: Launching Netflix.
+2026-08-10 20:22:19 [INFO] USER_COMMAND: i dig it every day
+2026-08-10 20:22:19 [INFO] Routing to Semantic LLM...
+2026-08-10 20:22:20 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:22:20 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 41.494186374s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '41s'}]}}
+2026-08-10 20:22:20 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:22:28 [INFO] USER_COMMAND: no
+2026-08-10 20:22:28 [INFO] Routing to Semantic LLM...
+2026-08-10 20:22:28 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:22:28 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 33.071765436s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+2026-08-10 20:22:28 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:22:40 [INFO] USER_COMMAND: lou
+2026-08-10 20:22:40 [INFO] Routing to Semantic LLM...
+2026-08-10 20:22:40 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:22:40 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 20.89952762s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}
+2026-08-10 20:22:40 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:22:52 [INFO] USER_COMMAND: the gym
+2026-08-10 20:22:52 [INFO] Routing to Semantic LLM...
+2026-08-10 20:22:53 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:22:53 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 8.460471879s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}
+2026-08-10 20:22:53 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:24:32 [INFO] JARVIS_OUTPUT (fast): Too short, sir. Hold the key while speaking.
+2026-08-10 20:24:40 [INFO] USER_COMMAND: exit him
+2026-08-10 20:24:40 [INFO] Routing to Semantic LLM...
+2026-08-10 20:24:40 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:24:40 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 20.963547696s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}
+2026-08-10 20:24:40 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:24:47 [INFO] JARVIS_OUTPUT (fast): Too short, sir. Hold the key while speaking.
+2026-08-10 20:25:02 [INFO] USER_COMMAND: it's the town
+2026-08-10 20:25:02 [INFO] Routing to Semantic LLM...
+2026-08-10 20:25:02 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:25:02 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 58.741323863s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}
+2026-08-10 20:25:02 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:25:11 [INFO] USER_COMMAND: he fix it
+2026-08-10 20:25:11 [INFO] Routing to Semantic LLM...
+2026-08-10 20:25:11 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:25:11 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 49.700393056s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}
+2026-08-10 20:25:11 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:25:20 [INFO] USER_COMMAND: quit didn't
+2026-08-10 20:25:20 [INFO] Routing to Semantic LLM...
+2026-08-10 20:25:21 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:25:21 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 40.622504312s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}
+2026-08-10 20:25:21 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:25:27 [INFO] JARVIS_OUTPUT (fast): Too short, sir. Hold the key while speaking.
+2026-08-10 20:25:35 [INFO] USER_COMMAND: good day
+2026-08-10 20:25:35 [INFO] Routing to Semantic LLM...
+2026-08-10 20:25:35 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:25:35 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 25.997358668s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+2026-08-10 20:25:35 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:25:46 [INFO] USER_COMMAND: fix it
+2026-08-10 20:25:46 [INFO] Routing to Semantic LLM...
+2026-08-10 20:25:46 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:25:46 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 15.305357843s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}
+2026-08-10 20:25:46 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-10 20:25:53 [INFO] JARVIS_OUTPUT (fast): I didn't understand that, sir. Please try again.
+2026-08-10 20:26:00 [INFO] USER_COMMAND: the trend
+2026-08-10 20:26:00 [INFO] Routing to Semantic LLM...
+2026-08-10 20:26:01 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-08-10 20:26:01 [ERROR] LLM API Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 503.308345ms.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}
+2026-08-10 20:26:01 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-11 18:39:36 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-11 18:39:36 [INFO] Native win32com SAPI initialized successfully.
+2026-08-11 18:39:37 [INFO] Indexed 163 Windows applications.
+2026-08-11 18:39:41 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-11 18:39:50 [INFO] USER_COMMAND: mute
+2026-08-11 18:39:50 [INFO] Routing to Semantic LLM...
+2026-08-11 18:39:53 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-11 18:39:53 [INFO] AUTOMATION: volume_mute
+2026-08-11 18:39:53 [INFO] TOOL_CALL: tool_volume_mute({}) -> Volume muted.
+2026-08-11 18:39:53 [INFO] JARVIS_OUTPUT: Volume muted.
+2026-08-11 18:39:59 [INFO] USER_COMMAND: unmute
+2026-08-11 18:39:59 [INFO] Routing to Semantic LLM...
+2026-08-11 18:40:01 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-11 18:40:01 [INFO] AUTOMATION: volume_mute
+2026-08-11 18:40:01 [INFO] TOOL_CALL: tool_volume_mute({}) -> Volume muted.
+2026-08-11 18:40:01 [INFO] JARVIS_OUTPUT: Volume muted.
+2026-08-11 18:43:19 [INFO] USER_COMMAND: write a letter for me being late to clear my fees due
+2026-08-11 18:43:19 [INFO] Routing to Semantic LLM...
+2026-08-11 18:43:22 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-11 18:43:22 [INFO] AUTOMATION: write_to_clipboard (623 chars)
+2026-08-11 18:43:22 [INFO] TOOL_CALL: tool_write_clipboard({'text': 'Dear [Recipient Name/Accounts Department],\n\nI am writing to sincerely apologize for the delay in clearing my outstanding fees for [Semester/Term/Month]. Due to unexpected financial circumstances, I was unable to make the payment by the original deadline. \n\nI am working diligently to resolve this matter and expect to have the full balance cleared by [Date]. I kindly request your understanding and ask if it would be possible to grant a temporary extension without any late penalties.\n\nThank you for your time, consideration, and understanding.\n\nSincerely,\n\n[Your Name]\n[Your Student/Account ID]\n[Your Contact Information]'}) -> I've copied that to your clipboard. You can paste it anywhere with Ctrl+V.
+2026-08-11 18:43:22 [INFO] JARVIS_OUTPUT: I've copied that to your clipboard. You can paste it anywhere with Ctrl+V.
+2026-08-11 18:44:48 [INFO] USER_COMMAND: write a letter for me being late to clear my fees due because i cant go to my home due to the ongoing flood situations
+2026-08-11 18:44:48 [INFO] Routing to Semantic LLM...
+2026-08-11 18:44:51 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-11 18:44:51 [INFO] AUTOMATION: write_to_clipboard (718 chars)
+2026-08-11 18:44:51 [INFO] TOOL_CALL: tool_write_clipboard({'text': 'Subject: Request for Extension of Fee Payment Due to Flood Situation\n\nDear [Recipient Name/Accounts Department],\n\nI am writing to formally request an extension for the payment of my outstanding fees. Due to the ongoing severe flood situations, I am currently unable to travel back to my home, which has disrupted my access to the necessary financial documents and funds required to complete the payment.\n\nI am closely monitoring the situation and will clear the dues as soon as it is safe to travel and access my resources. I kindly request your understanding and hope you can grant me an extension until the situation improves.\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]\n[Your ID/Roll Number]'}) -> I've copied that to your clipboard. You can paste it anywhere with Ctrl+V.
+2026-08-11 18:44:51 [INFO] JARVIS_OUTPUT: I've copied that to your clipboard. You can paste it anywhere with Ctrl+V.
+2026-08-11 18:45:22 [INFO] USER_COMMAND: launch notepaf
+2026-08-11 18:45:22 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'notepaf'.
+2026-08-11 18:45:32 [INFO] USER_COMMAND: launch notepad
+2026-08-11 18:45:32 [INFO] JARVIS_OUTPUT: Launching Notepad.
+2026-08-11 18:45:55 [INFO] USER_COMMAND: open the file letter
+2026-08-11 18:45:55 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'the file letter'.
+2026-08-11 18:47:12 [INFO] USER_COMMAND: launch notepad
+2026-08-11 18:47:12 [INFO] JARVIS_OUTPUT: Launching Notepad.
+2026-08-11 18:47:41 [INFO] USER_COMMAND: open documents
+2026-08-11 18:47:41 [INFO] JARVIS_OUTPUT: Opening your Documents folder.
+2026-08-11 18:48:00 [INFO] USER_COMMAND: search letter
+2026-08-11 18:48:00 [INFO] Routing to Semantic LLM...
+2026-08-11 18:48:03 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-08-11 18:48:04 [INFO] TOOL_CALL: tool_launch_app({'target_name': 'https://www.google.com/search?q=fee+clearance+letter+template'}) -> Opening https://www.google.com/search?q=fee+clearance+letter+template.
+2026-08-11 18:48:04 [INFO] JARVIS_OUTPUT: Opening https://www.google.com/search?q=fee+clearance+letter+template.
+2026-08-11 20:26:30 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-11 20:26:30 [INFO] Native win32com SAPI initialized successfully.
+2026-08-12 00:20:03 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-12 00:20:04 [INFO] Native win32com SAPI initialized successfully.
+2026-08-12 00:20:06 [INFO] Indexed 163 Windows applications.
+2026-08-12 00:20:06 [INFO] TTS_CACHE: warming cache...
+2026-08-12 00:20:07 [INFO] TTS_CACHE: generated 'C:\Users\albin jacob\.gemini\antigravity\scratch\jarvis_mini\cache\0d342c5c526651ff.mp3'
+2026-08-12 00:20:07 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-08-12 00:20:08 [INFO] TTS_CACHE: generated 'C:\Users\albin jacob\.gemini\antigravity\scratch\jarvis_mini\cache\c7156ad8987c2cfb.mp3'
+2026-08-12 00:20:08 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-08-12 00:20:09 [INFO] TTS_CACHE: generated 'C:\Users\albin jacob\.gemini\antigravity\scratch\jarvis_mini\cache\6486c7061777fe35.mp3'
+2026-08-12 00:20:09 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-08-12 00:20:14 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-12 00:20:20 [INFO] TRAY: thread launched
+2026-08-12 00:20:21 [INFO] TRAY: icon started
+2026-08-12 00:22:06 [INFO] USER_COMMAND: take screehshot
+2026-08-12 00:22:06 [INFO] Routing to Semantic LLM...
+2026-08-12 00:22:07 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:22:07 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:22:07 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-12 00:23:54 [INFO] JARVIS_OUTPUT (fast): Too short, sir. Hold the key while speaking.
+2026-08-12 00:24:04 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-12 00:24:04 [INFO] Native win32com SAPI initialized successfully.
+2026-08-12 00:24:05 [INFO] Indexed 163 Windows applications.
+2026-08-12 00:24:05 [INFO] TTS_CACHE: warming cache...
+2026-08-12 00:24:05 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-08-12 00:24:05 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-08-12 00:24:05 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-08-12 00:24:06 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-12 00:24:12 [INFO] TRAY: thread launched
+2026-08-12 00:24:12 [INFO] TRAY: icon started
+2026-08-12 00:24:16 [INFO] USER_COMMAND: good luck
+2026-08-12 00:24:16 [INFO] Routing to Semantic LLM...
+2026-08-12 00:24:16 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:24:16 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:24:16 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-12 00:24:25 [INFO] USER_COMMAND: yup britain
+2026-08-12 00:24:25 [INFO] Routing to Semantic LLM...
+2026-08-12 00:24:25 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:24:25 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:24:25 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-12 00:24:43 [INFO] USER_COMMAND: lobbyists spades
+2026-08-12 00:24:43 [INFO] Routing to Semantic LLM...
+2026-08-12 00:24:44 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:24:44 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:24:44 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-08-12 00:29:25 [INFO] USER_COMMAND: exit
+2026-08-12 00:29:25 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-12 00:29:33 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-12 00:29:33 [INFO] Native win32com SAPI initialized successfully.
+2026-08-12 00:29:34 [INFO] Indexed 163 Windows applications.
+2026-08-12 00:29:34 [INFO] TTS_CACHE: warming cache...
+2026-08-12 00:29:34 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-08-12 00:29:34 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-08-12 00:29:34 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-08-12 00:29:35 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-12 00:29:41 [INFO] TRAY: thread launched
+2026-08-12 00:29:41 [INFO] TRAY: icon started
+2026-08-12 00:29:45 [INFO] USER_COMMAND: yuck
+2026-08-12 00:29:45 [INFO] Routing to Semantic LLM...
+2026-08-12 00:29:45 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:29:45 [WARNING] LLM rate limit hit: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:29:45 [INFO] JARVIS_OUTPUT: I've hit my API rate limit, sir. Give it a moment and try again.
+2026-08-12 00:29:56 [INFO] USER_COMMAND: takes great job
+2026-08-12 00:29:56 [INFO] Routing to Semantic LLM...
+2026-08-12 00:29:57 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:29:57 [WARNING] LLM rate limit hit: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:29:57 [INFO] JARVIS_OUTPUT: I've hit my API rate limit, sir. Give it a moment and try again.
+2026-08-12 00:30:21 [INFO] USER_COMMAND: lock
+2026-08-12 00:30:21 [INFO] AUTOMATION: lock_screen
+2026-08-12 00:30:21 [INFO] JARVIS_OUTPUT: Locking the screen.
+2026-08-12 00:30:31 [INFO] USER_COMMAND: hi
+2026-08-12 00:30:31 [INFO] Routing to Semantic LLM...
+2026-08-12 00:30:31 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:30:31 [WARNING] LLM rate limit hit: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:30:31 [INFO] JARVIS_OUTPUT: I've hit my API rate limit, sir. Give it a moment and try again.
+2026-08-12 00:32:25 [INFO] USER_COMMAND: exit
+2026-08-12 00:32:25 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-12 00:32:58 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-12 00:32:58 [INFO] Native win32com SAPI initialized successfully.
+2026-08-12 00:32:59 [INFO] Indexed 163 Windows applications.
+2026-08-12 00:32:59 [INFO] TTS_CACHE: warming cache...
+2026-08-12 00:32:59 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-08-12 00:32:59 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-08-12 00:32:59 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-08-12 00:33:00 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-12 00:33:06 [INFO] TRAY: thread launched
+2026-08-12 00:33:06 [INFO] TRAY: icon started
+2026-08-12 00:33:22 [INFO] USER_COMMAND: nope
+2026-08-12 00:33:22 [INFO] Routing to Semantic LLM...
+2026-08-12 00:33:22 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:33:22 [WARNING] LLM rate limit hit: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:33:22 [INFO] JARVIS_OUTPUT: I've hit my API rate limit, sir. Give it a moment and try again.
+2026-08-12 00:33:34 [INFO] USER_COMMAND: love this grade
+2026-08-12 00:33:34 [INFO] Routing to Semantic LLM...
+2026-08-12 00:33:35 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:33:35 [WARNING] LLM rate limit hit: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:33:35 [INFO] JARVIS_OUTPUT: I've hit my API rate limit, sir. Give it a moment and try again.
+2026-08-12 00:34:14 [INFO] USER_COMMAND: open the netflix
+2026-08-12 00:34:14 [INFO] JARVIS_OUTPUT: Sorry, I couldn't find an application or folder named 'the netflix'.
+2026-08-12 00:34:58 [INFO] USER_COMMAND: shut down
+2026-08-12 00:34:58 [INFO] Routing to Semantic LLM...
+2026-08-12 00:34:58 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-08-12 00:34:58 [WARNING] LLM rate limit hit: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}
+2026-08-12 00:34:58 [INFO] JARVIS_OUTPUT: I've hit my API rate limit, sir. Give it a moment and try again.
+2026-08-12 00:35:08 [INFO] USER_COMMAND: exit
+2026-08-12 00:35:08 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-19 12:12:37 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-19 12:12:38 [INFO] Native win32com SAPI initialized successfully.
+2026-08-19 12:20:54 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-19 12:20:54 [INFO] Native win32com SAPI initialized successfully.
+2026-08-19 12:21:51 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-19 12:21:51 [INFO] Native win32com SAPI initialized successfully.
+2026-08-19 12:21:59 [INFO] Indexed 164 Windows applications.
+2026-08-19 12:21:59 [INFO] TTS_CACHE: warming cache...
+2026-08-19 12:21:59 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-08-19 12:21:59 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-08-19 12:21:59 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-08-19 12:22:10 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-19 12:22:10 [INFO] Native win32com SAPI initialized successfully.
+2026-08-19 12:22:16 [INFO] Indexed 164 Windows applications.
+2026-08-19 12:22:16 [INFO] TTS_CACHE: warming cache...
+2026-08-19 12:22:16 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-08-19 12:22:16 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-08-19 12:22:16 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-08-19 12:22:18 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-19 12:22:24 [INFO] TRAY: thread launched
+2026-08-19 12:22:25 [INFO] TRAY: icon started
+2026-08-19 12:22:32 [INFO] USER_COMMAND: exit
+2026-08-19 12:22:32 [INFO] JARVIS_OUTPUT: Goodbye, sir!
+2026-08-19 12:42:26 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-19 12:42:26 [INFO] Native win32com SAPI initialized successfully.
+2026-08-19 12:46:07 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-08-19 12:46:07 [INFO] Native win32com SAPI initialized successfully.
+2026-08-19 12:46:13 [INFO] Indexed 164 Windows applications.
+2026-08-19 12:46:13 [INFO] TTS_CACHE: warming cache...
+2026-08-19 12:46:13 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-08-19 12:46:13 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-08-19 12:46:13 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-08-19 12:46:16 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-08-19 12:46:22 [INFO] TRAY: thread launched
+2026-08-19 12:46:22 [INFO] TRAY: icon started
+2026-09-11 15:28:14 [INFO] Edge TTS neural voice ready: en-GB-RyanNeural
+2026-09-11 15:28:14 [INFO] Native win32com SAPI initialized successfully.
+2026-09-11 15:28:21 [INFO] Indexed 170 Windows applications.
+2026-09-11 15:28:21 [INFO] TTS_CACHE: warming cache...
+2026-09-11 15:28:21 [INFO] TTS_CACHE: warm 'startup' -> OK
+2026-09-11 15:28:21 [INFO] TTS_CACHE: warm 'goodbye' -> OK
+2026-09-11 15:28:21 [INFO] TTS_CACHE: warm 'shutdown_confirmed' -> OK
+2026-09-11 15:28:30 [INFO] JARVIS_OUTPUT: Jarvis online. All systems secure and ready.
+2026-09-11 15:28:36 [INFO] TRAY: thread launched
+2026-09-11 15:28:36 [INFO] TRAY: icon started
+2026-09-11 15:29:12 [INFO] USER_COMMAND: hey jarvis
+2026-09-11 15:29:12 [INFO] Routing to Semantic LLM...
+2026-09-11 15:29:12 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-11 15:29:12 [ERROR] LLM API Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-11 15:29:12 [INFO] JARVIS_OUTPUT: I encountered an error connecting to my neural net.
+2026-09-11 15:29:32 [INFO] USER_COMMAND: open calculator
+2026-09-11 15:29:32 [INFO] JARVIS_OUTPUT: Launching Calculator.
