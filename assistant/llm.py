@@ -64,13 +64,22 @@ def process_command(conversation, text_input: str, disable_tools: bool = False) 
     history = format_history_for_gemini(recent_msgs)
 
     # Prepare config
-    tools_to_pass = [] if disable_tools else ALL_TOOLS
+    if disable_tools:
+        tools_to_pass = []
+    else:
+        # We MUST pass schemas, not raw python functions, because google-genai 
+        # autonomously executes functions in its internal tenacity retry loop 
+        # even if AFC is disabled, leading to catastrophic side-effects.
+        tools_to_pass = [{"function_declarations": [
+            {
+                "name": fn.__name__,
+                "description": fn.__doc__ or f"Execute {fn.__name__}"
+            } for fn in ALL_TOOLS
+        ]}]
+
     config = types.GenerateContentConfig(
         system_instruction=SYSTEM_PROMPT,
         tools=tools_to_pass,
-        automatic_function_calling=types.AutomaticFunctionCallingConfig(
-            disable=True
-        ),
         temperature=0.4
     )
 
@@ -81,6 +90,9 @@ def process_command(conversation, text_input: str, disable_tools: bool = False) 
             config=config
         )
     except Exception as e:
+        import traceback
+        with open("llm_crash_log.txt", "w") as f:
+            f.write(traceback.format_exc())
         logger.error(f"LLM Error: {e}")
         return "I encountered an error connecting to my neural network."
 
