@@ -9,14 +9,16 @@ from .tools import ALL_TOOLS, TOOL_MAP
 
 logger = logging.getLogger(__name__)
 
-# Initialize client using standard GEMINI_API_KEY from environment
 try:
-    genai_client = genai.Client()
+    api_key = os.environ.get("GEMINI_API_KEY")
+    genai_client = genai.Client(api_key=api_key) if api_key else None
+    if not genai_client:
+        logger.warning("GEMINI_API_KEY not found in environment.")
 except Exception as e:
     genai_client = None
     logger.warning(f"Could not initialize Gemini Client: {e}")
 
-LLM_MODEL = "gemini-2.5-flash"
+LLM_MODEL = os.environ.get("LLM_MODEL_NAME", "gemini-3.6-flash")
 
 SYSTEM_PROMPT = """You are Jarvis, a powerful AI assistant running locally via a web interface.
 You have access to tools that can control the user's PC (volume, windows, power).
