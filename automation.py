@@ -15,6 +15,16 @@ import subprocess
 
 logger = logging.getLogger("Jarvis")
 
+def open_application(app_name: str) -> str:
+    """Attempt to launch a basic Windows application by name."""
+    try:
+        # Launch independently so it doesn't block the backend
+        subprocess.Popen(f"start {app_name}", shell=True)
+        return f"Opening {app_name}."
+    except Exception as e:
+        logger.error(f"open_application failed: {e}")
+        return f"Could not open {app_name}."
+
 # ─── Windows Virtual Key Codes for hardware-level media/volume ───────────────
 VK_MEDIA_PLAY_PAUSE = 0xB3
 VK_MEDIA_NEXT_TRACK = 0xB0
