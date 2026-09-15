@@ -102,3 +102,39 @@ def api_confirm_action(request):
         
     action.delete()
     return Response({"message": msg})
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def api_history(request):
+    """
+    Returns paginated conversation history from Postgres.
+    """
+    conversation = Conversation.objects.last()
+    if not conversation:
+        return Response({"messages": []})
+        
+    messages = conversation.messages.all().order_by('created_at')
+    # For MVP, just returning the last 50 messages instead of full pagination
+    data = [
+        {"role": msg.role, "content": msg.content, "timestamp": msg.created_at} 
+        for msg in messages[:50]
+    ]
+    return Response({"messages": data})
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def api_status(request):
+    """
+    Returns the system status: LLM online/offline and any pending confirmation state.
+    """
+    from .llm import genai_client
+    
+    pending = PendingAction.objects.filter(expires_at__gt=timezone.now()).order_by('-created_at').first()
+    
+    return Response({
+        "llm_online": genai_client is not None,
+        "pending_action": pending.action if pending else None
+    })
+
