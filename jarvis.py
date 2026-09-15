@@ -492,71 +492,9 @@ def ask_llm(user_input: str) -> None:
         + (f" {prefs_context}" if prefs_context else "")
     )
 
-    def tool_launch_app(target_name: str) -> str:
-        """Launch an application, folder, or website by name on the user's computer.
-        Args:
-            target_name: The exact name of the application, folder, or website to launch.
-        """
-        success, msg = launch_app_or_resource(target_name)
-        return msg
+    from plugin_manager import jarvis_tool, get_all_tools, get_tool_map
 
-    def tool_media_play_pause() -> str:
-        """Toggle play or pause for the current media session (music, video, etc.)."""
-        return media_play_pause()
-
-    def tool_media_next() -> str:
-        """Skip to the next track in the current media session."""
-        return media_next()
-
-    def tool_media_previous() -> str:
-        """Go back to the previous track in the current media session."""
-        return media_previous()
-
-    def tool_volume_mute() -> str:
-        """Toggle the system volume mute on or off."""
-        return volume_mute()
-
-    def tool_volume_up() -> str:
-        """Increase the system volume."""
-        return volume_up()
-
-    def tool_volume_down() -> str:
-        """Decrease the system volume."""
-        return volume_down()
-
-    def tool_close_active_window() -> str:
-        """Close the currently focused window."""
-        return close_active_window()
-
-    def tool_minimize_all_windows() -> str:
-        """Minimize all windows and show the desktop."""
-        return minimize_all_windows()
-
-    def tool_lock_screen() -> str:
-        """Lock the Windows screen immediately."""
-        return lock_screen()
-
-    def tool_write_clipboard(text: str) -> str:
-        """Write a response or generated text to the user's clipboard so they can paste it.
-        Args:
-            text: The text to place into the clipboard.
-        """
-        return write_to_clipboard(text)
-
-    def tool_take_screenshot() -> str:
-        """Take a screenshot of the full screen and save it to the Desktop.
-        Takes no arguments — the save path is determined by config only,
-        never by user or LLM input.
-        """
-        return take_screenshot()
-
-    def tool_set_volume(percent: int) -> str:
-        """Set the system master volume to an exact percentage.
-        Args:
-            percent: Volume level from 0 to 100.
-        """
-        return set_volume_percent(percent)
-
+    @jarvis_tool
     def tool_request_pc_shutdown() -> str:
         """Request a PC shutdown. This arms a confirmation prompt — the user must
         say the authorisation passphrase (or 'yes' if no passphrase is set) to proceed.
@@ -570,37 +508,7 @@ def ask_llm(user_input: str) -> None:
             return "Shutdown requested. Authorisation required, sir."
         return "Shutdown requested. Please confirm with yes."
 
-    def tool_save_preference(key: str, value: str) -> str:
-        """Save a user preference to persistent memory so Jarvis remembers it across sessions.
-        Args:
-            key:   The preference name, e.g. 'name', 'preferred volume', 'wake time'.
-            value: The preference value, e.g. 'Albin', '40 percent', '7am'.
-        """
-        return save_preference(key, value)
-
-    def tool_forget_preference(key: str) -> str:
-        """Remove a previously saved user preference from memory.
-        Args:
-            key: The preference name to forget.
-        """
-        return forget_preference(key)
-
-    def tool_set_reminder(duration_seconds: int, message: str) -> str:
-        """Set a timed reminder that Jarvis will speak aloud after the delay.
-        Args:
-            duration_seconds: How many seconds until the reminder fires.
-            message: What to remind the user about.
-        """
-        return set_reminder(duration_seconds, message)
-
-    all_tools = [
-        tool_launch_app, tool_media_play_pause, tool_media_next, tool_media_previous,
-        tool_volume_mute, tool_volume_up, tool_volume_down,
-        tool_close_active_window, tool_minimize_all_windows,
-        tool_lock_screen, tool_write_clipboard, tool_request_pc_shutdown,
-        tool_save_preference, tool_forget_preference, tool_set_reminder,
-        tool_take_screenshot, tool_set_volume,
-    ]
+    all_tools = get_all_tools()
 
     # Retry-with-backoff on rate limit (429). Up to 2 retries: 1.5s then 3s.
     _LLM_RETRY_DELAYS = [1.5, 3.0]
@@ -639,26 +547,7 @@ def ask_llm(user_input: str) -> None:
         if response and response.function_calls:
             import time as _time
 
-            # Map tool function names to callables
-            tool_map = {
-                "tool_launch_app":           lambda args: launch_app_or_resource(args.get("target_name", "").strip())[1],
-                "tool_media_play_pause":     lambda args: media_play_pause(),
-                "tool_media_next":           lambda args: media_next(),
-                "tool_media_previous":       lambda args: media_previous(),
-                "tool_volume_mute":          lambda args: volume_mute(),
-                "tool_volume_up":            lambda args: volume_up(),
-                "tool_volume_down":          lambda args: volume_down(),
-                "tool_close_active_window":  lambda args: close_active_window(),
-                "tool_minimize_all_windows": lambda args: minimize_all_windows(),
-                "tool_lock_screen":          lambda args: lock_screen(),
-                "tool_write_clipboard":      lambda args: write_to_clipboard(args.get("text", "")),
-                "tool_request_pc_shutdown":  lambda args: tool_request_pc_shutdown(),
-                "tool_save_preference":      lambda args: save_preference(args.get("key", ""), args.get("value", "")),
-                "tool_forget_preference":    lambda args: forget_preference(args.get("key", "")),
-                "tool_set_reminder":         lambda args: set_reminder(int(args.get("duration_seconds", 60)), args.get("message", "your reminder")),
-                "tool_take_screenshot":      lambda args: take_screenshot(),
-                "tool_set_volume":           lambda args: set_volume_percent(int(args.get("percent", 50))),
-            }
+            tool_map = get_tool_map()
 
             seen = set()
             results = []
@@ -669,7 +558,21 @@ def ask_llm(user_input: str) -> None:
                 seen.add(key)
                 fn = tool_map.get(call.name)
                 if fn:
-                    msg = fn(call.args)
+                    # GenAI returns arguments as a dict. Unpack them for standard Python functions.
+                    # Handle structural discrepancies (e.g., if args is None or missing)
+                    args_dict = call.args if call.args else {}
+                    # Some versions of google-genai wrap the dict, we can just cast it or use it.
+                    if hasattr(args_dict, 'to_dict'):
+                        args_dict = args_dict.to_dict()
+                    elif not isinstance(args_dict, dict):
+                        args_dict = dict(args_dict) if args_dict else {}
+                        
+                    try:
+                        msg = fn(**args_dict)
+                    except TypeError as e:
+                        logger.error(f"Tool arg mismatch for {call.name}: {e}")
+                        msg = f"Failed to execute {call.name} due to argument mismatch."
+                        
                     results.append(msg)
                     logger.info(f"TOOL_CALL: {call.name}({call.args}) -> {msg}")
                     if len(response.function_calls) > 1:
@@ -1114,6 +1017,11 @@ def main():
     load_all_windows_apps()
     print(f"✅ Indexed {len(WINDOWS_APPS_CACHE)} verified Windows apps.")
 
+    # Load dynamic enterprise plugins
+    from plugin_manager import load_plugins
+    print("Loading dynamic plugins...")
+    load_plugins()
+    
     # Warm TTS cache — pre-generate fixed system phrases for instant playback
     try:
         from tts_cache import warm_cache

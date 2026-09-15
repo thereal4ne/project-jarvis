@@ -1,0 +1,42 @@
+name: Web App Tests
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: jarvis_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install Dependencies
+        run: |
+          pip install django djangorestframework psycopg2-binary pytest-django pytest-mock pytest-cov django-cors-headers python-dotenv google-genai
+          
+      - name: Run Migrations
+        env:
+          # In CI, we will just pass dummy variables or rely on settings fallback
+          DATABASE_URL: postgres://postgres:postgres@localhost:5432/jarvis_db
+        run: python manage.py migrate
+
+      - name: Run Pytest
+        env:
+          DATABASE_URL: postgres://postgres:postgres@localhost:5432/jarvis_db
+        run: pytest --cov=assistant --cov-fail-under=80
