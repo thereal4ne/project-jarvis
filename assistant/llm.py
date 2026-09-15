@@ -9,14 +9,24 @@ from .tools import ALL_TOOLS, TOOL_MAP
 
 logger = logging.getLogger(__name__)
 
-try:
-    api_key = os.environ.get("GEMINI_API_KEY")
-    genai_client = genai.Client(api_key=api_key) if api_key else None
-    if not genai_client:
-        logger.warning("GEMINI_API_KEY not found in environment.")
-except Exception as e:
-    genai_client = None
-    logger.warning(f"Could not initialize Gemini Client: {e}")
+_genai_client_instance = None
+
+def get_genai_client():
+    global _genai_client_instance
+    if _genai_client_instance is None:
+        try:
+            # We explicitly grab it right at call-time to bypass any Django startup race conditions
+            from dotenv import load_dotenv
+            load_dotenv()
+            
+            api_key = os.environ.get("GEMINI_API_KEY")
+            if api_key:
+                _genai_client_instance = genai.Client(api_key=api_key)
+            else:
+                logger.error("GEMINI_API_KEY not found during lazy init.")
+        except Exception as e:
+            logger.error(f"Failed to initialize Gemini: {e}")
+    return _genai_client_instance
 
 LLM_MODEL = os.environ.get("LLM_MODEL_NAME", "gemini-3.6-flash")
 
@@ -42,7 +52,8 @@ def process_command(conversation, text_input: str, disable_tools: bool = False) 
     3. Execute tools if requested, tracking results.
     4. Return the final string.
     """
-    if not genai_client:
+    client = get_genai_client()
+    if not client:
         return "Error: Gemini Client is not initialized (missing API Key)."
 
     # Save user message to DB
@@ -64,7 +75,7 @@ def process_command(conversation, text_input: str, disable_tools: bool = False) 
     )
 
     try:
-        response = genai_client.models.generate_content(
+        response = client.models.generate_content(
             model=LLM_MODEL,
             contents=history,
             config=config

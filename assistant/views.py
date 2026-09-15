@@ -129,12 +129,13 @@ def api_status(request):
     """
     Returns the system status: LLM online/offline and any pending confirmation state.
     """
-    from .llm import genai_client
+    from .llm import get_genai_client
     
     pending = PendingAction.objects.filter(expires_at__gt=timezone.now()).order_by('-created_at').first()
+    client = get_genai_client()
     
     return Response({
-        "llm_online": genai_client is not None,
+        "llm_online": client is not None,
         "pending_action": pending.action if pending else None
     })
 

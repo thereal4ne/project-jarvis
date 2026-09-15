@@ -35,8 +35,11 @@ def test_unauthenticated_access(client):
     assert response.status_code in [401, 403]
 
 @pytest.mark.django_db
-@patch('assistant.llm.genai_client')
-def test_api_command(mock_genai, auth_client):
+@patch('assistant.llm.get_genai_client')
+def test_api_command(mock_get_client, auth_client):
+    mock_genai = MagicMock()
+    mock_get_client.return_value = mock_genai
+
     # Mock Gemini response
     mock_response = MagicMock()
     mock_response.text = "Hello sir."
@@ -59,8 +62,11 @@ def test_api_command(mock_genai, auth_client):
     assert msgs[1].content == 'Hello sir.'
 
 @pytest.mark.django_db
-@patch('assistant.llm.genai_client')
-def test_api_command_with_tools(mock_genai, auth_client):
+@patch('assistant.llm.get_genai_client')
+def test_api_command_with_tools(mock_get_client, auth_client):
+    mock_genai = MagicMock()
+    mock_get_client.return_value = mock_genai
+
     # Mock Gemini response with function calls
     mock_response = MagicMock()
     mock_response.text = None
@@ -88,8 +94,11 @@ def test_api_command_with_tools(mock_genai, auth_client):
     assert PendingAction.objects.filter(action="shutdown").count() == 1
 
 @pytest.mark.django_db
-@patch('assistant.llm.genai_client')
-def test_clipboard_summarize_isolation(mock_genai, auth_client):
+@patch('assistant.llm.get_genai_client')
+def test_clipboard_summarize_isolation(mock_get_client, auth_client):
+    mock_genai = MagicMock()
+    mock_get_client.return_value = mock_genai
+
     # Mock response
     mock_response = MagicMock()
     mock_response.text = "Summary text."
